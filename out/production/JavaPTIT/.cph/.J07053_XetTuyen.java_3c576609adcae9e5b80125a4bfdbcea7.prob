@@ -1,0 +1,1 @@
+{"name":"Local: J07053_XetTuyen","url":"d:\\Java\\JavaPTIT\\J07053_XetTuyen.java","tests":[{"id":1698413122601,"input":"3\nDoan Thi Kim\n13/03/1982\n8\n9.5\ndinh Thi NGOC HA\n3/9/1996\n6.5\n8\n  tran thanh mai\n12/9/2004\n8\n9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Java\\JavaPTIT\\J07053_XetTuyen.java","group":"local","local":true}

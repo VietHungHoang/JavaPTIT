@@ -1,0 +1,1 @@
+{"name":"Local: J07052_DanhSachTrungTuyen","url":"d:\\Java\\JavaPTIT\\J07052_DanhSachTrungTuyen.java","tests":[{"id":1698137400235,"input":"2\nKV2A002\nHoang THAnh tuan\n5\n6\n5\nKV3B123\n LY Thi   THU ha\n8\n6.5\n7\n1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Java\\JavaPTIT\\J07052_DanhSachTrungTuyen.java","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: J08020_KiemTraDayNgoacDung","url":"d:\\Java\\JavaPTIT\\J08020_KiemTraDayNgoacDung.java","tests":[{"id":1699665548810,"input":"2\n[()]{}{[()()]()}\n[(])","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Java\\JavaPTIT\\J08020_KiemTraDayNgoacDung.java","group":"local","local":true}

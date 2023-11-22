@@ -1,0 +1,1 @@
+{"name":"Local: J07071_TenVietTat","url":"d:\\Java\\JavaPTIT\\J07071_TenVietTat.java","tests":[{"id":1699427546385,"input":"4\nNguyen Manh Son\nNgo Minh Tuan\nNguyen Manh Hung\nTran Trung Dung\n1\nN.M.*","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Java\\JavaPTIT\\J07071_TenVietTat.java","group":"local","local":true}

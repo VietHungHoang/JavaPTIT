@@ -1,0 +1,1 @@
+{"name":"Local: J08021_DayNgoacDungDaiNhat","url":"d:\\Java\\JavaPTIT\\J08021_DayNgoacDungDaiNhat.java","tests":[{"id":1699666311226,"input":"3\n((()\n)()())\n()(()))))","output":"()())()()()"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Java\\JavaPTIT\\J08021_DayNgoacDungDaiNhat.java","group":"local","local":true}
