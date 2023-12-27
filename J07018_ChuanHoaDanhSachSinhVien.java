@@ -1,27 +1,29 @@
 import java.util.Scanner;
-import java.io.File;
+import java.io.*;
 import java.text.SimpleDateFormat;
-
+// trim() tên vì nếu dùng StringBuider với chuỗi rỗng sẽ gây Exception
     class Student{
-        private String id,name, classroom, dob, gpa;
+        private String id, name, classroom, dob, gpa;
 
         public Student(int id, String name, String classroom, String dob, float gpa) {
-            this.id = String.format("B20DCCN%03d", id);
             this.name = stdName(name);
-            this.classroom = classroom;
             this.dob = stdDate(dob);
+            this.id = String.format("B20DCCN%03d", id);
+             this.classroom = classroom;
             this.gpa = String.format("%.2f", gpa);
+            
         }
 
         public String stdName(String name){
-            String[] arr = name.toLowerCase().split("\\s+");
+            String[] arr = name.toLowerCase().trim().split("\\s+");
             String res = "";
             for(String x : arr){
                 StringBuilder sb = new StringBuilder(x);
                 sb.setCharAt(0, Character.toUpperCase(sb.charAt(0)));
                 res += sb.toString() + " ";
             }
-            return res.trim();
+            return res;
+            
         }
 
         public String stdDate(String date){
@@ -42,8 +44,8 @@ import java.text.SimpleDateFormat;
     }
 
     public class J07018_ChuanHoaDanhSachSinhVien {
-        public static void main(String[] args) throws Exception{
-            Scanner sc = new Scanner(System.in);
+        public static void main(String[] args) throws IOException{
+            Scanner sc = new Scanner(new File("SINHVIEN.in"));
             int t = Integer.parseInt(sc.nextLine());
             for(int i = 0; i < t; i++){
                 System.out.println(new Student(i + 1, sc.nextLine(), sc.nextLine(), sc.nextLine(), Float.parseFloat(sc.nextLine())));

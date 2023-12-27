@@ -25,14 +25,14 @@ class Employee implements Comparable<Employee>{
             else return "NV" + id.substring(2);
         }
         else if(id.startsWith("TP")){
-            if(countTP <= 3){
+            if(countTP < 3){
                 countTP++;
                 return id;
             }
             else return "NV" + id.substring(2);
         }
         else if(id.startsWith("PP")){
-            if(countPP <= 3){
+            if(countPP < 3){
                 countPP++;
                 return id;
             }

@@ -1,1 +1,1 @@
-{"name":"Local: test","url":"d:\\Java\\JavaPTIT\\test.java","tests":[{"id":1699607806660,"input":"[[[[))))]]]][()()][]][","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Java\\JavaPTIT\\test.java","group":"local","local":true}
+{"name":"Local: test","url":"d:\\Java\\JavaPTIT\\test.java","tests":[{"id":1699607806660,"input":"AAABBBAAABBB","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Java\\JavaPTIT\\test.java","group":"local","local":true}
